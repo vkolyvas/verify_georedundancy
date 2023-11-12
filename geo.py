@@ -64,10 +64,10 @@ def verify_georedundancy(router_ip, username, password):
         # Close the SSH connection
         ssh_client.close()
 
-# Example usage
-router_ips = ["192.168.1.1", "192.168.1.2"]
-username = "your_username"
-password = "your_password"
+# Example usage for ampe-asr9ka & ampe-asr9kb
+router_ips = ["79.128.219.27", "79.128.219.102"]
+username = "vkolyvas"
+password = "password"
 
 # Iterate through router IPs and check georedundancy information
 for router_ip in router_ips:
